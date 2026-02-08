@@ -186,10 +186,6 @@ module.exports = (_ => {
 				};
 				
 				this.css = `
-					${BDFDB.dotCNS._gameactivitytoggleadded + BDFDB.dotCN.accountinfoavatarwrapper} {
-						flex: 1 !important;
-						min-width: 0 !important;
-					}
 					${BDFDB.dotCNS._gameactivitytoggleadded + BDFDB.dotCN._gameactivitytogglebutton} {
 						margin-right: 4px;
 					}
