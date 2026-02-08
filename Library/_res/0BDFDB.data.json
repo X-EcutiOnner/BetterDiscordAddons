@@ -1353,7 +1353,7 @@
 		"UserProfileUsernameSection": "_05e81"
 	},
 	"DiscordClassModules": {
-		"AccountDetails": {"props": ["avatarWrapper", "micButtonParent", "redIcon"]},
+		"AccountDetails": {"props": ["avatar", "micButtonParent", "redIcon"]},
 		"AccountDetailsButtons": {"props": ["button", "enabled", "disabled"]},
 		"AccountDetailsQuest": {"props": ["mask", "wrapper", "wrapperInvisible"]},
 		"Anchor": {"props": ["anchor", "anchorUnderlineOnHover"]},
@@ -3086,6 +3086,7 @@
 		"tipinline": ["Tip", "inline"],
 		"titlebar": ["TitleBar", "titleBar"],
 		"titlebarthick": ["TitleBarNew", "bar"],
+		"titlebarthickbutton": ["TitleBarNew", "button"],
 		"titlebarmac": ["TitleBar", "typeMacOS"],
 		"titlebarmacbutton": ["TitleBar", "macButton"],
 		"titlebarmacbuttonclose": ["TitleBar", "macButtonClose"],
