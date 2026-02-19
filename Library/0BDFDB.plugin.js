@@ -3851,7 +3851,7 @@ module.exports = (_ => {
 							let hidden = BDFDB.DOMUtils.isHidden(hideNode);
 							if (hidden) {
 								BDFDB.DOMUtils.toggle(hideNode, true);
-								hideNode.BDFDBgetRectsHidden = true;
+								if (!BDFDB.DOMUtils.isHidden(hideNode)) hideNode.BDFDBgetRectsHidden = true;
 							}
 							hideNode = hideNode.parentElement;
 						}
