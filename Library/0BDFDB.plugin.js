@@ -3026,7 +3026,11 @@ module.exports = (_ => {
 					}
 				};
 				MyReact.forceUpdate = function (...instances) {
-					for (let ins of instances.flat(10).filter(n => n)) if (ins.updater) ins.forceUpdate();
+					for (let ins of instances.flat(10).filter(n => n)) if (ins.updater) {
+						let fiber = ins._reactInternals || ins._reactInternalFiber;
+						if (fiber) fiber.memoizedProps = fiber.pendingProps = ins.props;
+						ins.forceUpdate();
+					}
 				};
 				MyReact.getInstance = function (node) {
 					if (!BDFDB.ObjectUtils.is(node)) return null;
