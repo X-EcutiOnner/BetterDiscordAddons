@@ -264,8 +264,8 @@
 		"UserBannerUtils": {"strings": ["displayProfile:", "bannerSrc:", "new Image"], "exported": false, "value": "exports", "map": {
 			"getBanner": ["displayProfile:", "bannerSrc:", "new Image"]
 		}},
-		"UserNameFontUtils": {"strings": [".fontId", ".dnsFont"], "exported": false, "value": "exports", "map": {
-			"getClass": [".fontId", ".dnsFont"]
+		"UserNameFontUtils": {"strings": ["useDisplayNameStylesFont", ".fontId"], "exported": false, "value": "exports", "map": {
+			"getClass": ["useDisplayNameStylesFont", ".fontId"]
 		}},
 		"UserNameUtils": {"props": ["getNickname", "getName", "useName"]},
 		"UserPopoutUtils": {"strings": ["Cannot moderate user in DM or group DM", "onCloseContext"]},
@@ -536,7 +536,7 @@
 		"PeopleListSectionedLazy": {"strings": ["rows", "id:\"people-list\""]},
 		"PeopleListSectionedNonLazy": {"strings": ["rows", "id:\"people\""]},
 		"PictureInPictureVideo": {"strings": [".topControls", ".bottomControl", "screenMessage", "renderBottomLeftControls:"]},
-		"PrivateChannel": {"strings": ["isMultiUserDM", "PrivateChannel.renderAvatar", "placement:"], "noSearch": true},
+		"PrivateChannel": {"strings": ["isMultiUserDM", "location:\"PrivateChannel\"", "nameplate"], "noSearch": true},
 		"PrivateChannelRecipients": {"strings": [".membersWrap", "recipients"]},
 		"PrivateChannelsList": {"strings": ["privateChannelIds", "sections:"], "noSearch": true},
 		"QuickMessage": {"strings": ["QUICK_DM_USER", ".NORMAL"]},
